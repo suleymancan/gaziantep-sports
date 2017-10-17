@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/geri"
+        android:orderInCategory="100"
+        android:title="GERİ"
+        android:icon="@drawable/ic_arrow_back_black_24dp"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/anasayfa"
+        android:orderInCategory="100"
+        android:title="ANA SAYFA"
+        android:icon="@drawable/ic_home_black_24dp"
+        app:showAsAction="always" />
+    <!-- showAsAction never olursa uc nokta seklinde görünür.
+      showAsAction'u yan yana gormek icin always yapmalıyım.
+      drawable-> vector assets ile icon seciyorum.-->
+
+    <item
+        android:id="@+id/cikis"
+        android:orderInCategory="100"
+        android:title="ÇIKIŞ"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="always"/>
+</menu>

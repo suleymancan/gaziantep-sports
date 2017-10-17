@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- yan menude seçilen sayfayı gösterir checkableBehavior -->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/ozet"
+            android:title="ÖZET" />
+        <item
+            android:id="@+id/f_puandurumu"
+            android:title="Puan Durumu ve Maçlar" />
+
+        <item
+            android:id="@+id/gaziantepspor"
+            android:title="Fikstür Gaziantepspor" />
+        <item
+            android:id="@+id/gazisehir"
+            android:title="Fikstür Gazişehir FK" />
+        <item
+            android:id="@+id/gaziantepspor_kadro"
+            android:title="Kadro Gaziantepspor"/>
+        <item
+            android:id="@+id/gazisehir_kadro"
+            android:title="Kadro Gazişehir FK"/>
+        <item
+            android:id="@+id/gaziantepbasketbol"
+            android:title="Gaziantep Basketbol"/>
+        <item
+            android:id="@+id/b_puandurumu"
+            android:title="Basketbol Puan Durumu"/>
+    </group>
+
+    <item android:title="Yerel Spor #En5">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/gaziantep27"
+                    android:title="Gaziantep 27" />
+                <item
+                    android:id="@+id/gunes"
+                    android:title="Gaziantep Güneş" />
+                <item
+                    android:id="@+id/olaymedya"
+                    android:title="Olay Medya"/>
+                <item
+                    android:id="@+id/pusula"
+                    android:title="Pusula"/>
+                <item
+                    android:id="@+id/telgraf"
+                    android:title="Telgraf"/>
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="Kimiz?">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/hakkimizda"
+                    android:title="Hakkımızda"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

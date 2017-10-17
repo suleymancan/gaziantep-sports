@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Gaziantep Sports</string>
+
+    <string name="navigation_drawer_open">Yan menu ac</string>
+    <string name="navigation_drawer_close">Yan menu kapat</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
